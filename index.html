@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDSA</title>
+    <link rel="stylesheet" href="./Portfolio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" 
+/>
+</head>
+
+<body>
+    <nav class="nav_main">
+        <ul class="nav_ul">
+            <li><a href="#about_me">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li></li>
+        </ul>
+    </nav>
+    
+    <section id="animation">
+        <div >
+            <p id="Allletters" data-aos-once="true" data-aos="slide-right" data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out" >
+                    <span class="letter">M</span><span class="letter">o</span><span class="letter">h</span><span class="letter">a</span><span class="letter">m</span><span class="letter">m</span><span class="letter">a</span><span class="letter">d</span><span class="letter"> </span><span class="letter">S</span><span class="letter">o</span><span class="letter">h</span><span class="letter">a</span><span class="letter">i</span><span class="letter">l</span><span class="letter"> </span><span class="letter">A</span><span class="letter">n</span><span class="letter">s</span><span class="letter">a</span><span class="letter">r</span><span class="letter">i</span>
+                </p>
+            <p data-aos="slide-up" data-aos-once="true" data-aos-delay="100" data-aos-duration="2000" data-aos-easing="ease-in-out">Web <span>developer</span></p>
+        </div>
+    </section>
+    <section id="image_section">
+        <section id="innderImage" data-aos-once="true" data-aos="fade-up" data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <div>
+                <img src="./Image/Hesham.jpg" alt=""  id="imgs" width="100%" height="100%">
+             </div>
+
+        </section>
+    </section>
+
+    <section id="about_me">
+        <div id="about_meImg" data-aos-once="true" data-aos="flip-left" data-aos-delay="50"
+        data-aos-duration="1000"
+         data-aos-offset="150">
+            <img src="./Image/Sohail2.jpg" alt="" width="100%">
+        </div>
+        <div id="about_mePara" data-aos-once="true" data-aos="slide-up" data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <h1 class="headings">About me</h1>
+            <p class="para">Hi, my name is Md. Sohail Ansari. Currently I am 3rd year student of Z A Islamia college,
+                Siwan and learing MERN stack development by my self.</p>
+            <p class="para">Have a look at my <a href="#">Instagram</a> , <a href="#">LinkedIn</a>, and <a
+                    href="#">Twitter</a> account.</p>
+
+        </div>
+    </section>
+
+    <h1 class="headings" style="margin-top: 40px; display: block;">Skills</h1>
+    <section id="skills" >
+
+        <div class="eachSkill" data-aos-once="true" data-aos="slide-right" data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <div>
+                <img src="./Image/html.jpg" alt="">
+            </div>
+            <p class="skill_center">HTML</p>
+        </div>
+        <div class="eachSkill" data-aos-once="true" data-aos="slide-left" data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <div>
+                <img src="./Image/css.png" alt="">
+            </div>
+            <p class="skill_center">CSS</p>
+        </div>
+        <div class="eachSkill" data-aos-once="true" data-aos="slide-up" data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out" >
+            <div>
+                <img src="./Image/javascript.jpg" alt="">
+            </div>
+            <p class="skill_center">JavaScript</p>
+
+        </div>
+        <div class="eachSkill" data-aos-once="true"  data-aos="slide-down" data-aos-delay="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <div>
+                <img src="./Image/react.png" alt="">
+            </div>
+            <p class="skill_center">React</p>
+        </div>
+    </section>
+
+    <section id="education_div">
+        <div id="eduDiv" class="headings">
+            <p id="education" >Education</p>
+        </div>
+        <div id="education_title">
+             <div class="eduTitle_div" onclick="showAndHide('tenth','twelveth','gra','institute')">10th</div>
+             <div class="eduTitle_div" onclick="showAndHide('twelveth','tenth','gra','institute')">12th</div>
+             <div class="eduTitle_div" onclick="showAndHide('gra','tenth','twelveth','institute')">Graducation</div>
+             <div class="eduTitle_div" onclick="showAndHide('institute','tenth','twelveth','gra')">Institute</div>
+        </div>
+        <div id="edu_detail" > 
+            <div id="tenth" class="each_edu_div"  >
+               <div id="flex-div">
+                    <div class="schoolDiv"  data-aos-once="true" data-aos="slide-up" data-aos-delay="100" data-aos-duration="2000" >
+                        <div class="schoolDetail">
+                            <strong>School Name : </strong> <span>Vigranand Kendriya Vidyalaya</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Situated : </strong> <span>Chanaur,Siwan,Bihar</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Session : </strong> <span>2017-2018</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Board : </strong> <span>CBSE</span>
+                        </div>
+                    </div>
+                    <div id="container"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000" >
+                        
+                            
+                                <div class="swiper-slide"><img src="./Image/Hesham.jpg" alt=""></div>
+                                 <div class="swiper-slide"><img src="./Image/javascript.jpg" alt=""></div>
+                               <div class="swiper-slide"><img src="./Image/Sohail2.jpg" alt=""></div>
+                            
+                        
+                    </div>
+                </div>
+                
+                <h2 class="headings">Some Keypoints</h2>
+                <ul class="Keypoints" data-aos-once="true" data-aos="slide-right" data-aos-delay="100" data-aos-duration="2000" >
+                    <li class="keyli">It is situated in village area.</li>
+                    <li class="keyli">I took admission in 2nd class, in 2010, in hostal.</li>
+                    <li class="keyli">In 6th standard i leave hostal.</li>
+                    <li class="keyli">At that time there were many good teachers like Baby Pinky mam, Vijay Dubay sir, Shayam Baran Sir, S. P. Mishra sir, Abhishek Pathak sir</li>
+                    <li class="keyli">The food quality were very good in hostel.</li>
+                    <li class="keyli">In every week on firday, we got permission to offer namaj.</li>
+
+                    
+                </ul>
+
+                <h2 class="headings" style="margin-top: 60px;">Some Memories</h2>
+                <div id="memories"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" >
+                    <div class="memoriesImg">
+                        <img src="./Image/m1.jpeg" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="memoriesImg">
+                        <img src="./Image/m2.jpeg" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="memoriesImg">
+                        <img src="./Image/m3.jpeg" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="memoriesImg">
+                        <img src="./Image/m4.jpeg" alt="" width="100%" height="100%">
+                    </div>
+                </div>
+                
+            </div>
+            <div id="twelveth" class="each_edu_div">
+                <div class="12Dtail">
+                    <div class="schoolDiv"   data-aos-delay="100" data-aos-duration="2000" >
+                        <div class="schoolDetail">
+                            <strong>School Name : </strong> <span>Rajdev Singh College</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Situated : </strong> <span>Shrinagar,Siwan,Bihar</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Session : </strong> <span>2018-2020</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Board : </strong> <span>BSEB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Animation12">
+                    
+                    
+                       <div class="ani12thEachDiv">
+                          <div class="eachAni"><img src="./Image/t1.jpeg" alt=""></div>
+                       </div>
+                       <div class="ani12thEachDiv">
+                        <div class="eachAni"><img src="./Image/t2.jpeg" alt=""></div>
+                     </div>
+                     <div class="ani12thEachDiv">
+                        <div class="eachAni"><img src="./Image/t3.jpeg" alt=""></div>
+                     </div>
+                     <div class="ani12thEachDiv">
+                        <div class="eachAni"><img src="./Image/t4.jpeg" alt=""></div>
+                     </div>
+                </div>
+            </div>
+            <div id="gra" style="display: none;" >
+                <div class="first_Detail" >
+                    <div   data-aos="slide-up" data-aos-delay="100" data-aos-duration="2000"  >
+                        <div class="schoolDetail">
+                            <strong>School Name : </strong> <span>Z. A Islamia College</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Situated : </strong> <span>Siwan</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Session : </strong> <span>2020-2023</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Affiliated : </strong> <span>MMHAPU,Patna</span>
+                        </div>
+                    </div>
+                    <div  id="gra_img"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000" >
+                        
+                            
+                                <div><img src="./Image/Hesham.jpg" alt="" id="imgSlide"></div>
+                                 
+                            
+                        
+                    </div>
+
+                    
+                    
+                </div> 
+                <hr>
+                <div id="gtaKey">
+                    <h1 class="headings">Some Key Points</h1>
+                    <div style="display:flex;justify-content: center;">
+                        <button class="btnGra" id="show"  onclick="AddKey()">Show</button>
+                        <button class="btnGra" style="display: none;" id="more" onclick="AddKey()">More</button>
+                        <button class="btnGra" id="less" style="display: none;" onclick="hideKey()">Hide</button>
+                    </div>
+                </div>
+                <ul id="ulGra">
+
+                </ul>
+                 
+                 
+            </div>
+            <div id="institute" class="each_edu_div">
+                <div class="first_Detail" >
+                    <div   data-aos="slide-up" data-aos-delay="100" data-aos-duration="2000"  >
+                        <div class="schoolDetail">
+                            <strong>School Name : </strong> <span>Ducat</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Situated : </strong> <span>South Extension</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Joined : </strong> <span>17 Aug 2023</span>
+                        </div>
+                        <div class="schoolDetail">
+                            <strong>Branches : </strong> <span>South Extension, Noida 16, Gajiabad, Gurgaun</span>
+                        </div>
+                    </div>
+                    <div    data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000" >
+                        
+                            
+                                <div><img src="./Image/institute.jpeg" alt="" id="ins_img"></div>
+                                 
+                            
+                        
+                    </div>
+                </div>
+
+                <div id="about_institute" >
+                    <h1 class="headings">About Institute</h1>
+                    <p class="ducat_para">
+                        DUCAT is a Registered IT Training Institute.
+                        They train students from both local and PAN India in a variety of nationally recognised professional IT courses.
+                    </p>
+                    <p class="ducat_para">
+                         As of my knowledge, it is started in 2000. It has 6 branches at Delhi NCR, with more than 180 courses and kill sets.
+                    </p>
+                    <p class="ducat_para">Institute is helping youngsters to be trained in job-oriented courses and improve their career.</p>
+                </div>
+
+                <h1 class="headings" style="margin-top: 60px;">Placed Students</h1>
+            <div id="Placed_students">
+                <div class="placed_div" >
+                    <img src="./Image/p1.jpeg" alt="">
+                </div>
+                <div class="placed_div" >
+                    <img src="./Image/p2.jpeg" alt="">
+                </div>
+                <div class="placed_div" >
+                    <img src="./Image/p3.jpeg" alt="">
+                </div>
+                <div class="placed_div" >
+                    <img src="./Image/p4.jpeg" alt="">
+                </div>
+                <div class="placed_div" >
+                    <img src="./Image/p5.jpeg" alt="">
+                </div>
+                <div class="placed_div" >
+                    <img src="./Image/p6.jpeg" alt="">
+                </div>
+            </div>
+           <hr>
+            <h1 class="headings">About Tutor</h1>
+            <div id="tutor">
+                   <p class="ducat_para">
+                      The teacher who tought me is well experienced teacher. His name is Vikash Agrahari. He has many years of teaching experience as well as industry experience.
+                   </p>
+                   <p class="ducat_para">
+                      When first time I attend the class, he examine me and guide me to which class i should join. 
+                   </p>
+                   <p class="ducat_para">He also teach online. You  can visite his <a href="https://www.youtube.com/@codeWithVivekSir" target="_blank">channel.</a> Some of his videos are as follow</p>
+            </div>
+                <div id="videos">
+                    
+                    
+                    <div >
+                        <iframe  src="https://www.youtube.com/embed/k5mCi8VGE5g?si=Dhj9VIKPcxIr6yuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div >
+                        <iframe  src="https://www.youtube.com/embed/r-OfkPyyXm0?si=ZHN8VkApIZuJvXJm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div >
+                        <iframe  src="https://www.youtube.com/embed/tzRC-Nhoy98?si=dIbdAAUkqQI8Aue_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+             
+            </div>
+            
+        </div>
+
+        <div id="last">
+            
+        </div>
+    </section>
+
+    <script src="./Portfolio.js">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
